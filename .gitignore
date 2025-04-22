@@ -1,0 +1,65 @@
+# Node & Dependencies
+# Ignore node_modules in the root and all subdirectories
+**/node_modules/
+
+# PNPM specific files
+.pnpm-debug.log*
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Environment Variables
+# Ignore all .env files, but allow examples
+.env*
+!.env.example
+
+# SvelteKit build / cache / output directories
+# Ignore in the root and specifically within apps/*
+.svelte-kit/
+build/
+apps/*/.svelte-kit/
+apps/*/build/
+
+# Vite cache
+.vite/
+**/vite.config.js.timestamp-*
+
+# IDE / Editor directories
+.vscode/
+.idea/
+*.project
+*.classpath
+*.cproject
+*.launch
+*.settings
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Test output & Coverage
+coverage/
+.nyc_output/
+apps/*/test-results/ # Playwright default
+
+# Supabase CLI state (if used)
+.supabase/
+
+# Optional: Lock files other than pnpm's if you want to be strict
+# package-lock.json
+# yarn.lock
+
+# Temporary files
+*.tmp
+*.swp
