@@ -2,6 +2,9 @@
 // for information about these interfaces
 declare global {
 	namespace App {
+		interface Locals {
+			supabase: import('@ugm-stock-club/supabase-client').SupabaseClient;
+		}
 		// interface Error {}
 		// interface Locals {}
 		// interface PageData {}

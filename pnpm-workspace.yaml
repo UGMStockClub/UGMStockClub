@@ -1,0 +1,5 @@
+packages:
+  # Include apps directory
+  - 'apps/*'
+  # Include packages directory (even if it's empty now)
+  - 'packages/*'

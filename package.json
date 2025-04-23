@@ -1,5 +1,5 @@
 {
-  "name": "UGMStockClub",
+  "name": "ugm-stock-club",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,5 +9,8 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "packageManager": "pnpm@10.9.0"
+  "packageManager": "pnpm@10.9.0",
+  "devDependencies": {
+    "dotenv": "^16.5.0"
+  }
 }
