@@ -1,0 +1,10 @@
+# apps/frontend/wrangler.toml
+
+name = "ugm-stock-club-frontend" # Can be the same as your Pages project name or just descriptive
+compatibility_date = "2024-04-23" # Use today's date or a recent date - IMPORTANT
+
+# Explicitly enable Node.js compatibility mode
+compatibility_flags = [ "nodejs_compat" ]
+
+# Optional: Specify main entry point if needed (adapter usually handles this)
+# main = "./.svelte-kit/cloudflare/_worker.js"
