@@ -9,8 +9,5 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "packageManager": "pnpm@10.9.0",
-  "devDependencies": {
-    "dotenv": "^16.5.0"
-  }
+  "packageManager": "pnpm@10.9.0"
 }
